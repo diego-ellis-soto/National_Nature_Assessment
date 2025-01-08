@@ -72,7 +72,7 @@ gbif_species_name = 'Aedes aegypti'
 download_plot_socioeco_gbif_data <- function(gbif_species_name = NULL){
 # outdir outdir folder
   # species name
-oc_d = occ_download(pred("taxonKey", name_backbone(gbif_species_name)$usageKey),format = "SIMPLE_CSV", user = 'diego_ellis_soto', pwd = 'Atelopus1!', email = 'diego.ellissoto@yale.edu')
+oc_d = occ_download(pred("taxonKey", name_backbone(gbif_species_name)$usageKey),format = "SIMPLE_CSV", user = 'XXX', pwd = 'XXX', email = 'XXX')
 
 # Add has coordinate here ! -> and more ! 
 stat <- "PREPARING"
